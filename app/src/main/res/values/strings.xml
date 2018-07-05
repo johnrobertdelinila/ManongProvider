@@ -1,0 +1,81 @@
+<resources>
+    <string name="title_activity_maps">Map</string>
+    <string name="manong_app_name">One Tap\nManong</string>
+    <string name="manong_navigation_title">Manong</string>
+    <string name="manong_hint_username">Username</string>
+    <string name="manong_hint_password">Password</string>
+    <string name="manong_button_login">Login</string>
+    <string name="manong_button_register">Register</string>
+    <string name="manong_error_password">Password must contain at least 6 characters.</string>
+    <string name="manong_error_email">Username must not be empty.</string>
+    <string name="manong_search_title">Search</string>
+    <string name="manong_filter_title">Profile</string>
+    <string name="manong_login_title">Radial transformation sample</string>
+    <string name="manong_text_forgot">Forgot Password</string>
+    <string name="manong_text_social">Login with Social Media</string>
+    <string name="manong_text_gurst">or Continue As Guest</string>
+    <string name="manong_error_email2">Username must be a valid email.</string>
+    <string name="manong_how_this_works">How this works?</string>
+    <string name="manong_job_request_title">Job Request</string>
+    <string name="manong_request_detail_title">Request Detail</string>
+    <string name="manong_header_request">Job Request</string>
+    <string name="manong_header_message">Message</string>
+    <string name="manong_text_waiting">We are waiting for quotes from vendors\nWe will notify you as soon as we receive\nquotes from your request.</string>
+    <string name="manong_step_1">1.  Submit a request now.</string>
+    <string name="manong_step_2">2.  Get up to a 5 quotes from professional and verified vendors.</string>
+    <string name="manong_step_3">3.  Hire your preferred vendor.</string>
+    <string name="manong_step_5">4.  Pay the vendor directly when the job is done.</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Manong backdrop menu labels -->
+    <string name="manong_search_label">Services</string>
+    <string name="manong_request_label">Jobs</string>
+    <string name="manong_inbox_label">Inbox</string>
+    <string name="manong_notif_label">Notification</string>
+    <string name="manong_more_label">More</string>
+    <string name="manong_profile_label">Quotes</string>
+
+    <!-- Facebook and Twitter Auth strings -->
+    <string name="facebook_app_id">162006424449144</string>
+    <string name="fb_login_protocol_scheme">fb162006424449144</string>
+    <string name="facebook_application_id" translatable="false">162006424449144</string>
+
+    <string name="twitter_consumer_key" translatable="false">hjcenXcNPbPulffhckAWF6FMx</string>
+    <string name="twitter_consumer_secret" translatable="false">GMEuVTamlDPvsDj7eBNkLq1Un2888FGWihuCRruKJywSJAAeFy</string>
+
+    <string name="transition_name_login" translatable="false">login</string>
+    <string name="transition_name_implementation_image" translatable="false">shared_element</string>
+    <string name="transition_name_all_element_share" translatable="false">all_element_share</string>
+    <string name="transition_name_few_element_share" translatable="false">few_element_share</string>
+    <string name="transition_name_few_element_share_image" translatable="false">few_element_share_image</string>
+    <string name="transition_name_navigational_transition" translatable="false">content_root</string>
+
+    <string name="all_not_support_os_version">Your Android OS version does not support this feature.</string>
+
+    <string name="main_content_description_implementation_image">implementation image</string>
+
+    <string name="duration_easing_abstract"><b>M</b>aterial in motion is responsive and natural. </string>
+    <string name="duration_easing_duration_title">Dynamic durations</string>
+    <string name="duration_easing_duration_long">300dp 290ms</string>
+    <string name="duration_easing_duration_short">120dp 225ms</string>
+    <string name="duration_easing_easing_curves_title">Natural easing curves</string>
+    <string name="duration_easing_standard_curve">Standard curve</string>
+    <string name="duration_easing_deceleration_curve">Deceleration curve</string>
+    <string name="duration_easing_acceleration_curve">Acceleration curve</string>
+    <string name="duration_easing_sharp_curve">Sharp curve</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="manong_hint_message">Message</string>
+    <string name="manong_text_send">SEND</string>
+    <string name="manong_message_hint">Message</string>
+    <string name="manong_view_profile">View and edit\naccount</string>
+    <string name="manong_error_email_register">Email must not be empty.</string>
+    <string name="manong_error_phone">Phone number is required.</string>
+    <string name="manong_phone_valid_error">Please enter a valid phone number.</string>
+    <string name="web_client_id">1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com</string>
+    <string name="manong_password_error">Password must not be empty.</string>
+    <string name="manong_confirm_password_error">Confirm password is required.</string>
+    <string name="manong_image_loading">Please wait...</string>
+    <string name="manong_text_share">When you share photos,\nthey\'ll appear on your profile.</string>
+</resources>

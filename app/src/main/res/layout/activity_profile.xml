@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            style="@style/Widget.Manong.Toolbar.Ordinary"
+            android:background="@color/homeGridBackgroundColor"
+            android:id="@+id/toolbar"
+            app:title="Profile"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            app:contentInsetStart="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:visibility="gone"
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/homeGridBackgroundColor"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".RegisterActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            tools:context=".RegisterActivity">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_user_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_account_circle_black_36dp"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/temp_image_view"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <com.elyeproj.loaderviewlibrary.LoaderImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </android.support.v7.widget.CardView>
+
+            <!--<com.elyeproj.loaderviewlibrary.LoaderTextView-->
+            <!--android:id="@+id/profile_user_name"-->
+            <!--android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"-->
+            <!--android:fontFamily="@font/rubik_medium"-->
+            <!--android:textSize="20sp"-->
+            <!--app:use_gradient="true"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="18dp"-->
+            <!--android:layout_marginBottom="18dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+            <EditText
+                android:id="@+id/profile_user_name"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:fontFamily="@font/rubik_medium"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="18dp"
+                android:gravity="center_horizontal"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Full Name"
+                android:inputType="text" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_text_input"
+                style="@style/Widget.Manong.TextInputLayout.Register"
+                android:hint="Email Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                app:errorEnabled="true"
+                app:hintEnabled="true"
+                app:hintAnimationEnabled="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/email_edit_text"
+                    android:focusable="false"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="+63"
+                    android:gravity="bottom"
+                    android:layout_gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                    android:paddingBottom="40dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="9dp"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/phone_text_input"
+                    style="@style/Widget.Manong.TextInputLayout.Register"
+                    android:hint="Phone Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintAnimationEnabled="true">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/phone_edit_text"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="10"
+                        android:focusable="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <android.support.design.button.MaterialButton
+                android:visibility="gone"
+                style="@style/Widget.Manong.Button.TextButton"
+                android:id="@+id/change_pass_button"
+                android:text="Change Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.github.florent37.shapeofview.shapes.CutCornerView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:shape_cutCorner_bottomLeftSize="12dp"
+                app:shape_cutCorner_bottomRightSize="12dp"
+                app:shape_cutCorner_topLeftSize="12dp"
+                app:shape_cutCorner_topRightSize="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:targetApi="lollipop">
+
+                    <android.support.design.button.MaterialButton
+                        android:id="@+id/update_button"
+                        style="@style/Widget.Manong.Button"
+                        android:text="EDIT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </com.github.florent37.shapeofview.shapes.CutCornerView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/container_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

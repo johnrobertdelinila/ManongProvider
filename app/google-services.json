@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "1094111490534",
+    "firebase_url": "https://one-tap-manong-ec225.firebaseio.com",
+    "project_id": "one-tap-manong-ec225",
+    "storage_bucket": "one-tap-manong-ec225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094111490534:android:179921fb9c98882e",
+        "android_client_info": {
+          "package_name": "com.example.johnrobert.manongcustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094111490534-i5ppeo928knm8h6e87apr8e0frhc8muf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.johnrobert.manongcustomer",
+            "certificate_hash": "1212cc44115d53aa4c56c82852293708da62e928"
+          }
+        },
+        {
+          "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSGqa3VA-AT11dhpAQTwzOwTrcdmFuvwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094111490534:android:dd2ccf8a9d8c8d28",
+        "android_client_info": {
+          "package_name": "com.example.johnrobert.manongprovider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094111490534-9skhpsql3bkilclqagdd89nj3i0s0tnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.johnrobert.manongprovider",
+            "certificate_hash": "1212cc44115d53aa4c56c82852293708da62e928"
+          }
+        },
+        {
+          "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSGqa3VA-AT11dhpAQTwzOwTrcdmFuvwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094111490534:android:6abead748c332e56",
+        "android_client_info": {
+          "package_name": "com.example.johnrobertdelinila.onetapmanong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094111490534-t4tarclnceho6a9k9tfpahr21hqnqnfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.johnrobertdelinila.onetapmanong",
+            "certificate_hash": "1212cc44115d53aa4c56c82852293708da62e928"
+          }
+        },
+        {
+          "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSGqa3VA-AT11dhpAQTwzOwTrcdmFuvwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094111490534-p2d6t4ma8bbg10is49fgupqdneqlepem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

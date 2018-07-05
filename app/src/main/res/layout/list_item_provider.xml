@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0.7dp"
+    app:cardCornerRadius="0dp"
+    app:contentPaddingRight="@dimen/padding_normal_16dp"
+    app:contentPaddingLeft="@dimen/padding_normal_16dp"
+    app:contentPaddingTop="10dp"
+    app:contentPaddingBottom="10dp"
+    android:layout_marginLeft="@dimen/spacing_normal_8dp"
+    android:layout_marginRight="@dimen/spacing_normal_8dp"
+    android:layout_marginBottom="@dimen/spacing_normal_8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.elyeproj.loaderviewlibrary.LoaderTextView
+            android:id="@+id/text_last_date"
+            android:textSize="12sp"
+            android:fontFamily="@font/rubik"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            app:height_weight="0.7"
+            app:use_gradient="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:layout_marginEnd="4dp"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_margin="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:visibility="gone"
+                    android:id="@+id/image_profile_picture"
+                    android:layout_centerVertical="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="true"
+                    android:src="@mipmap/ic_account_circle_black_36dp"
+                    app:civ_border_width="0dp" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/temp_image_view"
+                    android:layout_centerVertical="true"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="0dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <com.elyeproj.loaderviewlibrary.LoaderImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_margin="4dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/text_provider_name"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/rubik"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    app:height_weight="0.9"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/text_last_message"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/rubik"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    app:height_weight="0.9"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:maxEms="8"
+                    android:ellipsize="end"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.card.MaterialCardView>

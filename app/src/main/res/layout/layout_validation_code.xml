@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/padding_dialog_24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/text_verification_code"
+        app:pinAnimationType="fromBottom"
+        app:pinLineColors="@color/colorPrimaryDark"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:fontFamily="@font/rubik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

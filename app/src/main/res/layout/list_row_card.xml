@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/Widget.MaterialComponents.CardView"
+    app:cardCornerRadius="0dp"
+    app:contentPaddingRight="@dimen/padding_normal_16dp"
+    app:contentPaddingLeft="@dimen/padding_normal_16dp"
+    app:contentPaddingTop="10dp"
+    app:contentPaddingBottom="10dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/spacing_normal_8dp"
+    android:layout_marginRight="@dimen/spacing_normal_8dp"
+    android:layout_marginBottom="@dimen/spacing_normal_8dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.card.MaterialCardView
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:contentPaddingRight="7dp"
+            app:contentPaddingLeft="7dp"
+            app:contentPaddingTop="5dp"
+            app:contentPaddingBottom="5dp"
+            app:cardBackgroundColor="@color/compareBackgroundColor"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:text="Compare"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.card.MaterialCardView>
+
+        <TextView
+            android:text="Service Name"
+            android:id="@+id/text_service_name"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textColor="@color/textColorRequest"
+            android:textSize="20sp"
+            android:fontFamily="@font/rubik_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginBottom="3dp"-->
+                <!--android:id="@+id/image_service_date"-->
+                <!--app:srcCompat="@drawable/ic_date_range_black_24dp"-->
+                <!--android:layout_width="16sp"-->
+                <!--android:layout_height="16sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_toEndOf="@+id/image_service_date"-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:layout_marginBottom="4dp"-->
+                <!--android:layout_marginStart="9dp"-->
+                <!--android:id="@+id/text_service_date"-->
+                <!--style="@style/TextAppearance.Request"-->
+                <!--android:text="Date"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<TextView-->
+            <!--android:visibility="gone"-->
+            <!--android:id="@+id/text_booked_service"-->
+            <!--style="@style/TextAppearance.Request"-->
+            <!--android:text="You've Booked a Service Provider"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/text_service_quotes"-->
+            <!--style="@style/TextAppearance.Request"-->
+            <!--android:text="Your Quotes Are On The Way"-->
+            <!--android:textColor="@color/textColorRequest"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--tools:targetApi="lollipop" />-->
+
+    </LinearLayout>
+
+</android.support.design.card.MaterialCardView>

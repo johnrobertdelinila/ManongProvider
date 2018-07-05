@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Manong.Button.TextButton.Bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manong_request_label" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Manong.Button.TextButton.Bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manong_profile_label" />
+
+    <View
+        android:visibility="gone"
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Manong.Button.TextButton.Bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manong_inbox_label" />
+
+    <View
+        android:visibility="gone"
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Manong.Button.TextButton.Bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manong_notif_label" />
+
+    <View
+        android:visibility="gone"
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Manong.Button.TextButton.Bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manong_more_label" />
+
+    <View
+        android:visibility="gone"
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/toolbarIconColor" />
+
+</merge>
